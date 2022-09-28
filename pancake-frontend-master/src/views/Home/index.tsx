@@ -81,7 +81,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
           fill: #201335;
         }
       `}</style>
-      <StyledHeroSection
+      {/* <StyledHeroSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
         containerProps={{
           id: 'home-1',
@@ -96,7 +96,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         )}
         <MultipleBanner />
         <Hero />
-      </StyledHeroSection>
+      </StyledHeroSection> */}
       <PageSection
         innerProps={{ style: { margin: '0', width: '100%' } }}
         containerProps={{
@@ -123,7 +123,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         </OuterWedgeWrapper>
         <SalesSection {...swapSectionData(t)} />
       </PageSection>
-      <PageSection
+      {/* <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.gradientCardHeader}
         index={2}
@@ -146,7 +146,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         hasCurvedDivider={false}
       >
         <WinSection />
-      </PageSection>
+      </PageSection> */}
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
         background={theme.colors.background}
@@ -154,7 +154,7 @@ const Home: React.FC<React.PropsWithChildren> = () => {
         hasCurvedDivider={false}
       >
         <SalesSection {...cakeSectionData(t)} />
-        <CakeDataRow />
+        {/* <CakeDataRow /> */}
       </PageSection>
       <PageSection
         innerProps={{ style: HomeSectionContainerStyles }}
